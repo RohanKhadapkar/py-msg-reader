@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-msg-reader"
+version = "1.0"
+description = "GUI tool to read .msg file on Windows and Linux."
+authors = ["RohanKhadapkar <r.khadapkar91@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+extract-msg = "^0.28.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
