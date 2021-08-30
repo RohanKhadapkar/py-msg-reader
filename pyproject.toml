@@ -7,8 +7,11 @@ authors = ["RohanKhadapkar <r.khadapkar91@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 extract-msg = "^0.28.7"
+IMAPClient = "2.1.0"
+PySimpleGUI = "^4.46.0"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^21.7b0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
