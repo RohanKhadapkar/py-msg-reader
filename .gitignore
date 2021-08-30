@@ -130,3 +130,5 @@ dmypy.json
 
 # Custom
 data/
+pyproject.toml
+project.lock

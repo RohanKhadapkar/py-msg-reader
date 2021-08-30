@@ -108,5 +108,3 @@ if __name__ == "__main__":
 
     except Exception:
         log.error(traceback.format_exc())
-
-    main()
